@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">雷神遊戲廳</string>
+    <string name="intro_text_1">RPG Maker MV 遊戲\n免打包即可在手機運行</string>
+    <string name="intro_text_2">自主研發全新第二代雲遊戲技術\n免下載,免安裝,開箱即玩\n這一次,讓我們引領全球科技前沿</string>
+    <string name="intro_text_3">5G時代,遊戲大不同\n雲遊戲,讓好玩觸手可及</string>
+    <string name="intro_text_4">我的時間非常寶貴\n不能用在垃圾遊戲和\n篩選垃圾遊戲上</string>
+    <string name="intro_text_cloudgame">5G時代,遊戲大不同\n全新第二代雲遊戲技術\n免下載,免安裝,開箱即玩</string>
+    <!-- Launcher -->
+    <string name="launcher_text_1">\n雷神遊戲廳\n5G時代,遊戲大不同\n雲遊戲,讓好玩觸手可及</string>
+    <string name="launcher_text_2">\n雷神遊戲廳\n免打包apk即可在手機\n運行 RPG Maker MV 遊戲</string>
+    <string name="launcher_text_3">\n雷神遊戲廳\n自主研發全新第二代雲遊戲技術\n免免下載,免安裝,開箱即玩\n這一次,讓我們引領全球科技前沿</string>
+    <string name="launcher_text_4">\n我的時間非常寶貴\n不能用在垃圾遊戲和\n篩選垃圾遊戲上</string>
+    <string name="launcher_button">開始</string>
+
+    <string name="login">登入</string>
+    <string name="reg">註冊</string>
+    <string name="submit">提交</string>
+    <string name="about">關於</string>
+    <string name="whatsnew">What\'s New?</string>
+    <string name="version">%1$s v%2$s.%3$s Build time: %4$s</string>
+    <string name="qq_group">官方交流QQ群：316081271</string>
+    <string name="version_symbol">\ v</string><!--前面的空格可以用转义字符，这俩最终没有使用，留作模板-->
+    <string name="released_on">, Released on&#160;</string><!--后面的空格可以用&#160;字符串代替，这俩最终没有使用，留作模板-->
+
+    <!-- Main -->
+    <string name="contacts">通訊錄</string>
+    <string name="my">我的</string>
+    <string name="discover">發現</string>
+    <string name="recommended_friends">新的朋友</string>
+    <string name="group_chats">群聊</string>
+    <string name="official_accounts">公衆號</string>
+    <string name="no_msg">暫時沒有新消息</string>
+    <string name="search">搜索</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_groupchat">發起羣聊</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_qrcode">掃一掃</string>
+    <string name="menu_pin_to_desktop">固定到桌面</string>
+    <string name="menu_money">微信錢包</string>
+    <string name="menu_addgame">推薦遊戲</string>
+    <string name="menu_sharegame">分享</string>
+
+
+    <!-- Login/Reg -->
+    <string name="countries_and_areas">國家和地區</string>
+    <string name="login_txt_china">中國</string>
+    <string name="login_txt_yourphone">填寫手機號碼</string>
+    <string name="login_hint_code">輸入驗證碼</string>
+    <string name="login_txt_code">驗證碼</string>
+    <string name="login_btn_sendcode">發送驗證碼</string>
+    <string name="login_btn_resendcode">重新發送</string>
+    <string name="login_txt_86">+86</string>
+    <string name="username">用戶名</string>
+    <string name="password">密碼</string>
+    <string name="password0">原密碼</string>
+    <string name="password1">新密碼</string>
+    <string name="password2">確認密碼</string>
+    <string name="login_txt_inputusername">Email/用戶名/手機號/QQ/微信/微博</string>
+    <string name="search_txt_game">搜索遊戲</string>
+    <string name="login_txt_inputpwd">填寫密碼</string>
+    <string name="login_txt_inputpwd0">填寫原密碼</string>
+    <string name="login_txt_inputpwd1">填寫新密碼</string>
+    <string name="login_txt_inputpwd2">填寫確認新密碼</string>
+    <string name="login_btn_action">登入</string>
+    <string name="login_btn_register">註冊</string>
+    <string name="login_txt_qustion">登入遇到問題？</string>
+    <string name="login_tip_tel_error">請輸入正確的手機號！</string>
+    <string name="login_tip_loginerror">登入失敗</string>
+    <string name="title_activity_login">登入</string>
+    <!-- Strings related to login -->
+    <string name="prompt_name">手機號/賬號</string>
+    <string name="prompt_password">密碼</string>
+    <string name="action_sign_in_register"><b>登入</b></string>
+    <string name="action_sign_in_short">進入</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">正在登入&#8230;</string>
+    <string name="progress_submit">正在提交</string>
+    <string name="error_invalid_email">用戶名不合法</string>
+    <string name="error_invalid_password">親，密碼太短了</string>
+    <string name="error_incorrect_user">請檢查使用者名稱密碼是否正確</string>
+    <string name="error_name_required">請輸入使用者名稱</string>
+    <string name="error_pwd_required">請輸入密碼</string>
+    <string name="invalid_account">登入失敗,請重試</string>
+    <string name="invalid_network">請檢查網絡是否正常！</string>
+    <string name="login_timeout">登入超時,請重試</string>
+    <string name="login_failed">登入失敗,請重試</string>
+    <string name="action_kickout">使用者在其他客戶端登入</string>
+    <!-- Strings related to reg -->
+    <string name="action_reg"><b>註冊</b></string>
+    <string name="action_reg1"><b>手機號方式註冊</b></string>
+    <string name="action_reg3"><b>其它方式註冊</b></string>
+    <string name="action_reg2"><b>系統分配帳號方式註冊</b></string>
+    <string name="login_progress_reg">正在註冊&#8230;</string>
+    <string name="login_progress_edit">正在修改&#8230;</string>
+    <string name="reg_prompt_username">請輸入手機號</string>
+    <string name="reg_prompt_username_invalid">輸入的手機號無效</string>
+    <string name="reg_prompt_username_alt">請輸入用戶名</string>
+    <string name="reg_prompt_password">請輸入密碼</string>
+    <string name="reg_prompt_password_too_short">輸入的密碼太短</string>
+    <string name="reg_prompt_password0">請輸入原密碼</string>
+    <string name="reg_prompt_password1">請輸入新密碼</string>
+    <string name="reg_prompt_password2">請輸入確認密碼</string>
+    <string name="reg_prompt_2pwd_diff">兩次輸入的密碼不同</string>
+    <string name="reg_prompt_new_pwd_too_short">輸入的密碼太短，至少6位長度</string>
+    <string name="reg_prompt_newpwd_same_as_oldone">輸入的新密碼和原密碼相同</string>
+    <string name="reg_prompt_telcode">請輸入驗證碼</string>
+    <string name="reg_prompt_telcode_invalid">輸入的驗證碼無效</string>
+    <string name="action_reg_ime_short">註冊</string>
+    <string name="reg_result_succ">註冊成功</string>
+    <string name="reg_result_fail">註冊失敗</string>
+    <string name="send_telcode_sms_result_fail">發送短信驗證碼失敗</string>
+    <string name="reg_result_fail_ci">驗證碼無效</string>
+    <string name="reg_result_fail_ci_timeout">驗證碼已過期</string>
+    <string name="reg_result_fail_d">該手機號已註冊過</string>
+    <string name="reg_result_fail_dii">該設備已註冊過</string>
+    <string name="reg_result_fail_ae">該帳號已註冊過</string>
+    <string name="reg_result_fail_ee">該Email已註冊過</string>
+    <string name="reg_result_fail_n">註冊失敗</string>
+    <string name="reg_result_fail_e">用戶名或密碼不能為空</string>
+    <string name="login_result_fail_fb">帳號被永久封禁</string>
+    <string name="login_result_fail_lb">帳號被封禁，將於 %s 解除</string>
+    <!-- Strings related to fetch index gamelist -->
+    <string name="fetch_index_gamelist_failed">失敗,請重試</string>
+    <string name="game_search_empty">沒有搜索到結果</string>
+    <!-- Strings related to fetch gamedetail -->
+    <string name="fetch_gamedetail_failed">失敗,請重試</string>
+    <string name="add_comment_failed_only_author_can_reply">只有該遊戲的推薦者才能回復</string>
+    <string name="reload_text">重試</string>
+    <string name="webview_load_error_text">載入失敗，請檢查網路狀態後重試</string>
+    <string name="none_text">暫無</string>
+    <string name="none_comments_text">暫無，評價一個</string>
+    <string name="open_text">打開</string>
+    <string name="copy_text">複製</string>
+    <string name="address_text1">地址1</string>
+    <string name="address_text2">地址2</string>
+    <string name="address_text3">地址3</string>
+    <string name="contact_text">聯繫</string>
+    <string name="onlineplay_text">線上試玩</string>
+    <string name="downlink_text">下載</string>
+    <string name="walkthrough_text">攻略</string>
+    <string name="news_text">更新</string>
+    <string name="comments_text">玩家評價</string>
+    <string name="screenshot_text">截圖</string>
+    <string name="intro_text">簡介</string>
+    <string name="ver_text">最新版本</string>
+    <string name="fix_text">最新修正</string>
+    <string name="view_text">查看</string>
+    <string name="watch_text">+關注</string>
+    <string name="watched_text">已關注</string>
+    <string name="watchgiftcode_text">關注禮包碼</string>
+    <string name="unwatch_text">取消關注</string>
+    <string name="shakegiftcode_text">搖搖禮包碼</string>
+    <string name="shakegiftcode_congratulations_text">恭喜，您搖到了禮包碼：%s</string>
+    <string name="shakegiftcode_empty_text">抱歉，該遊戲沒有設定搖一搖禮包碼，請聯繫作者添加資料</string>
+    <string name="unshake_text">取消重搖</string>
+    <string name="download_text">下載</string>
+    <string name="player_text">玩家</string>
+    <string name="author_title">出品人</string>
+    <string name="author_anonymous">匿名</string>
+    <string name="yourself">您</string>
+    <string name="pack_mvrom">打包ROM (.mvrom)</string>
+    <string name="pack_mvpatch">打包補丁 (.mvpatch)</string>
+    <string name="pack_mvdlc">打包DLC (.mvdlc)</string>
+    <string name="pack_apk">打包APK</string>
+    <string name="del_game">刪除</string>
+    <string name="reset_game_file_list_in_database">重置索引</string>
+    <string name="del_cached_game_file">刪除緩存</string>
+    <string name="copy_success_text">複製成功</string>
+    <string name="share_appchooser_text">選擇應用</string>
+    <string name="share_app_title_text">"%s"</string>
+    <string name="scanner_result_success_text">識別成功</string>
+    <string name="scanner_result_hint">以上內容已同步複製到剪貼板，可在需要的地方粘貼使用，或者點擊下方跳轉按鈕直接跳轉</string>
+    <string name="scanner_result_jumpto">跳轉</string>
+    <string name="permission_fail_text">取得授權失敗，該功能無法使用</string>
+    <string name="permission_need_text">需要打開許可權才能使用該功能，您也可以前往設置->應用。。。手動開啟許可權</string>
+    <string name="permission_need_readwrite_text">需要打開讀寫外部設備的許可權才能使用該功能，您也可以前往設置->應用。。。手動開啟許可權</string>
+    <string name="zip_file_invalid_text">無效的zip檔：根目錄或者www目錄下沒有找到index.html文件</string>
+    <string name="reboot_app_text">請重啟app之後再次嘗試使用該功能</string>
+    <string name="viewmore_text">查看更多</string>
+    <string name="keyword_text">關鍵字</string>
+    <string name="add_game_form_section1_head_hint">遊戲名稱為必填項，其它項可選填</string>
+    <string name="add_game_form_section2_head_hint">推薦成功\n您當前可以繼續完善資訊，或者離開此頁面。\n注：以下所有項均為可選填</string>
+    <string name="add_game_form_section3_head_hint">完善成功\n您當前可以繼續完善資訊，或者離開此頁面。\n注：以下所有圖片均為可選</string>
+    <string name="add_game_form_section4_head_hint">恭喜\n全部完成</string>
+    <string name="view_gamedetail">查看詳情</string>
+    <string name="finish">結束</string>
+    <string name="upload_success">上傳成功</string>
+    <string name="edit_detail">編輯</string>
+    <string name="detail_download">下載</string>
+    <string name="detail_install">安裝</string>
+    <string name="detail_open">打開</string>
+    <string name="edit_shake">搖一搖</string>
+    <string name="detail_play">雲遊戲</string>
+    <string name="just_moment_ago">剛剛</string>
+    <string name="final_step">最後一步</string>
+    <string name="add_game_comments_form_null_hint">請後退至遊戲詳情頁面之後重新進行評價</string>
+    <string name="add_game_comments_form_attitude_hint">請選擇是否推薦</string>
+    <string name="add_game_comments_form_coments_hint">請輸入評價、建議或者回饋的內容</string>
+    <string name="add_game_form_gamename_hint">請輸入遊戲名稱</string>
+    <string name="add_game_form_shortintro_hint">請輸入一句話推薦理由</string>
+    <string name="add_game_form_author_hint">請輸入作者名稱</string>
+    <string name="add_game_form_online_hint">上架</string>
+    <string name="add_game_form_showinweb_hint">在網站上公開顯示</string>
+    <string name="add_game_form_showinapp_hint">在App上公開顯示</string>
+    <string name="add_game_form_public_financial_hint">公開財務資料</string>
+    <string name="add_game_form_keyword1_hint">標籤1，只輸入1個單詞</string>
+    <string name="add_game_form_keyword2_hint">標籤2，只輸入1個單詞</string>
+    <string name="add_game_form_keyword3_hint">標籤3，只輸入1個單詞</string>
+    <string name="add_game_form_keyword4_hint">標籤4，只輸入1個單詞</string>
+    <string name="add_game_form_keyword5_hint">標籤5，只輸入1個單詞</string>
+    <string name="add_game_form_intro_hint">請輸入簡介</string>
+    <string name="add_game_form_downlink_hint">請輸入下載連結或點擊按鈕選擇檔做種並提交磁力鏈</string>
+    <string name="add_game_form_make_torrent_btn">做種</string>
+    <string name="add_game_form_onlineplay_hint">請輸入線上試玩連結，1行1個，最多3個</string>
+    <string name="add_game_form_contact_hint">請輸入聯繫方式，1行1個，最多3個</string>
+    <string name="add_game_form_walkthrough_hint">請輸入攻略連結，1行1個，最多3個</string>
+    <string name="add_game_form_icon_hint">請上傳圖示，64*64px的jpg或png圖片，最多1張</string>
+    <string name="add_game_form_cover_hint">請上傳封面，640*360px的jpg圖片，最多1張</string>
+    <string name="add_game_form_screenshot_hint">請上傳截圖，640*360px的jpg圖片，最多3張</string>
+    <string name="upload_icon">上傳logo</string>
+    <string name="upload_cover">上傳封面</string>
+    <string name="upload_screenshot">上傳截圖</string>
+
+    <!-- profile -->
+    <string name="title_activity_edit_password">修改密碼</string>
+    <string name="title_activity_edit_nickname">修改昵稱</string>
+    <string name="profile_txt_nickname">昵稱</string>
+    <string name="profile_txt_nickname_is_anonymous">匿名 (昵稱為空)</string>
+    <string name="profile_action_edit_nickname">編輯</string>
+    <string name="action_edit_short">編輯</string>
+    <string name="error_invalid_nickname">昵稱不能為空</string>
+    <string name="edit_result_fail_nickname">昵稱修改失敗</string>
+    <string name="edit_result_fail_password">密碼修改失敗</string>
+    <string name="edit_result_succ">更新成功</string>
+    <string name="update_box_title">版本更新 v%1$s</string>
+    <string name="update_box_size">大小：%1$s</string>
+    <string name="proccess_box_title">處理中，請稍等 %1$s</string>
+    <string name="proccess_unarchive_title">正在安裝</string>
+    <string name="update_box_btn_ok">立即升級</string>
+    <string name="update_box_btn_later">下次再說</string>
+    <string name="download_start">開始在後臺下載，稍後將通知您安裝</string>
+    <string name="notify_download_ticker">正在下載新版本</string>
+    <string name="notify_download_content">正在下載,請稍後&#8230;</string>
+    <string name="notify_download_finish">下載完成, 請點擊安裝</string>
+    <string name="notify_update_game_finish">更新完成</string>
+    <string name="download_error_filenotfound">文件不存在</string>
+    <string name="download_error_ioexception">下載失敗，請檢查網路！</string>
+    <string name="download_error_malformedurl">URL格式錯誤</string>
+    <string name="edit_result_fail">更新失敗</string>
+    <string name="edit_result_fail_n">更新失敗</string>
+    <string name="edit_result_fail_timeout">超時</string>
+    <string name="profile_txt_pwd">密碼</string>
+    <string name="profile_action_edit_pwd">編輯</string>
+    <string name="profile_txt_pwd_pad">****************</string>
+    <string name="profile_txt_album">相冊</string>
+    <string name="profile_txt_collect">收藏</string>
+    <string name="profile_txt_money">錢包</string>
+    <string name="profile_txt_card">卡包</string>
+    <string name="profile_txt_smail">表情</string>
+    <string name="profile_txt_setting">設置</string>
+    <string name="profile_txt_username">Allen Juns</string>
+    <string name="profile_txt_userid">微信號：dada2012625</string>
+    <string name="profile_txt_mycode">我的二維碼</string>
+
+    <!-- Dicover -->
+    <string name="discover_txt_pengyouquan">朋友圈</string>
+    <string name="discover_txt_saoyisao">掃一掃</string>
+    <string name="discover_txt_yaoyiyao">搖一搖</string>
+    <string name="discover_txt_nearby">附近的人</string>
+    <string name="discover_txt_piaoliuping">漂流瓶</string>
+    <string name="discover_txt_shop">購物</string>
+    <string name="discover_txt_game">遊戲</string>
+
+    <!-- default -->
+    <string name="def_empty_data_text">空空如也，神馬都沒有</string>
+    <string name="def_empty_button_retry">重試</string>
+    <string name="def_net_error_text">網路不給力</string>
+    <string name="def_data_loading">載入中&#8230;</string>
+    <string name="def_more">上拉載入更多&#8230;</string>
+    <string name="key_back_msg">再次按返回鍵退出</string>
+
+    <!-- 錢包 -->
+    <string name="wallet_txt_lingqian">零錢</string>
+    <string name="wallet_txt_yinhangka">銀行卡</string>
+    <string name="wallet_txt_cards">3張</string>
+
+    <!-- 設置 -->
+    <string name="setting_txt_usersafe">帳號安全</string>
+    <string name="setting_txt_msgtip">新消息通知</string>
+    <string name="setting_txt_yinsi">隱私</string>
+    <string name="setting_txt_tongyong">通用</string>
+    <string name="setting_txt_about">關於微信</string>
+    <string name="setting_btn_exit">退出登錄</string>
+
+    <!-- Unit -->
+    <string name="unit_second">秒</string>
+
+    <!-- Dialog -->
+    <!-- Dialog request_permission -->
+    <string name="dialog_request_permission_title">需要您的授權</string>
+    <string name="dialog_request_permission_btn_agree">同意</string>
+    <string name="dialog_request_permission_btn_refuse">拒絕</string>
+    <string name="dialog_request_permission_content_sms"><Data><![CDATA[需要<font color="#ff0000"><b>讀取短信</b></font>許可權用來讀取驗證碼以自動輸入；<br>需要<font color="#ff0000"><b>寫入/刪除短信</b></font>許可權用來將驗證碼短信刪除以減少用戶操作；]]></Data></string>
+    <string name="dialog_request_permission_content_sms_refused">未取得用戶授權</string>
+    <!-- Dialog reg2 account -->
+    <string name="dialog_reg2_account_title">帳號信息</string>
+    <string name="dialog_reg2_account_btn_agree">已記在腦中</string>
+    <string name="dialog_reg2_account_btn_refuse">已記在紙上</string>
+    <string name="dialog_reg2_account_msg"><Data><![CDATA[系統給您分配的帳號：<font color="#008000"><b>%1$s</b></font>，<br>請記在大腦中或抄在紙上並將該紙鎖在保險櫃中或妥善保存，<font color="#800000">強烈推薦記在大腦中</font>，因為目前還沒有能夠直接讀取您大腦中資料的科技出現，但不排除將來會有此類科技出現。<br>點擊下方<font color="#800000">兩個按鈕均會跳轉至登錄頁面</font>。]]></Data></string>
+    <!-- Dialog change password result -->
+    <string name="dialog_change_pwd_title">帳號信息</string>
+    <string name="dialog_change_pwd_btn_agree">確定</string>
+    <string name="dialog_change_pwd_msg">請使用新密碼重新登錄</string>
+    <!-- Dialog change nickname result -->
+    <string name="dialog_change_nickname_title">帳號信息</string>
+    <string name="dialog_change_nickname_btn_agree">確定</string>
+    <string name="dialog_change_nickname_msg"><Data><![CDATA[昵稱已修改為：<font color="#00ff00"><b>%1$s</b></font>，<br>稍後生效。]]></Data></string>
+    <!-- Contact Top Button -->
+    <string name="contact_all">全部</string>
+    <string name="contact_buddy">朋友</string>
+    <string name="contact_group">群聊</string>
+    <string name="contact_department">組織</string>
+    <!-- Serach -->
+    <string name="search_hint">搜索連絡人，群組，會話</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login2">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- add buddy -->
+    <string name="add_buddy_text_hint">請輸入朋友的帳號</string>
+    <string name="add_buddy_text_msg_hint">請輸入暗號</string>
+    <string name="add_buddy_text_short">添加</string>
+    <string name="add_buddy_text_btn">添加朋友</string>
+    <string name="error_empty_buddyid">號碼不能為空</string>
+    <string name="error_invalid_buddyid">號碼只能為數字</string>
+    <string name="error_result_fail_buddyid">添加朋友失敗</string>
+
+    <string name="author_recommend">作者自薦</string>
+    <string name="anonymous_recommend">匿名推薦</string>
+    <string name="player_recommend">玩家推薦</string>
+    <string name="local_recommend">本地添加</string>
+    <string name="local_recommend_invalid">本地添加 (本地資料夾不存在)</string>
+    <string name="publish_to_app">是否要發佈到 %s 應用市場？</string>
+    <string name="feature_will_open_in_future">此功能在將來的版本中開放，敬請關注</string>
+    <string name="default_short_intro_1">很屌的遊戲，不要錯過</string>
+    <string name="default_short_intro_2">很好玩的，試試看</string>
+    <string name="default_short_intro_3">遊戲我下載了，可好玩啦</string>
+    <string name="cached_intro_template_1">已快取檔案：%1$s，大小：%2$s</string>
+    <string name="cached_intro_template_2">%1$s,%2$s (%3$s,%4$s)</string>
+    <string name="cached_file_not_found">沒有找到對應的快取檔案</string>
+    <string name="page_end">沒有新資料啦</string>
+    <string name="no_news">沒有資料</string>
+
+    <string name="game_play_launcher_download_notice">本次載入遊戲需要更新資料：\n文件總數：%1$s\n位元組總數：%2$s (%3$s 位元組)\n請點擊下方按鈕開始更新\n或者\n直接開始遊戲，所有檔將按需下載</string>
+    <string name="game_play_launcher_cloud_game_error_intro">該遊戲缺少雲試玩的必要條件</string>
+    <string name="game_play_launcher_intro">由於每款遊戲在不同手機上表現不同\n因此\n請在嘗試下方各種內核後\n選擇最適合自己的方式</string>
+    <string name="game_play_launcher">使用騰訊x5內核進入遊戲</string>
+    <string name="game_play_launcher2">使用手機系統自帶內核進入遊戲</string>
+    <string name="restart_app">騰訊x5內核載入失敗，App將在1秒鐘後自動重啟並再次嘗試</string>
+    <string name="exit_dialog_body">是否要退出遊戲？\n任何未保存的進度都將丟失！</string>
+    <string name="exit_dialog_negative_btn">取消</string>
+    <string name="exit_dialog_positive_btn">確定</string>
+    <string name="retry_x5core_dialog_body">騰訊x5內核載入失敗！App將在重啟後再次嘗試。\n也可以直接進入遊戲，將使用系統內核。</string>
+    <string name="retry_x5core_dialog_negative_btn">重啟App</string>
+    <string name="retry_x5core_dialog_positive_btn">進入遊戲</string>
+    <string name="game_play_launcher_download_error_1">當前遊戲正在下載中</string>
+    <string name="game_play_launcher_download_error_2">另一款遊戲正在下載中</string>
+    <string name="game_play_launcher_download_all_done">全部更新完畢，現在可以進入遊戲</string>
+    <string name="tab_text_hot">熱門</string>
+    <string name="tab_text_new">新品</string>
+    <string name="tab_text_watch">關注</string>
+    <string name="tab_text_player">熱玩</string>
+    <string name="tab_text_author">作者</string>
+    <string name="tab_text_user">玩家</string>
+    <string name="search_game_hot_keyword">熱門遊戲搜索</string>
+    <string name="search_game_hot_tag">熱門遊戲標籤</string>
+    <string name="btn_txt_search_tag">篩選</string>
+    <string name="toptitle_txt_search">搜索 “%s”</string>
+    <string name="toptitle_txt_tag">篩選 “%s”</string>
+    <string name="keywords_empty">請輸入關鍵字</string>
+    <string name="keywords_short">輸入的關鍵字長度過短</string>
+    <string name="tags_empty">請選擇標籤</string>
+    <string name="too_many_tags_selected">選擇的標籤數量過多</string>
+
+    <string name="comment_awesome">&#xf164; 推薦</string>
+    <string name="comment_dislike">&#xf165; 不推薦</string>
+    <string name="comment_footer_awesome">&#xf164; %s</string>
+    <string name="comment_footer_dislike">&#xf165; %s</string>
+    <string name="comment_footer_joy">&#xf118; %s</string>
+    <string name="comment_title_of_game">%s 的評價</string>
+    <string name="title_game_comments_add">評價《%s》</string>
+    <string name="title_game_comments_edit">編輯評價</string>
+    <string name="title_game_comments_reply">回復評價</string>
+    <string name="add_game_comments_form_comments_hint">請輸入評價、建議或者回饋</string>
+    <string name="add_game_comments_form_reply_hint">請輸入回復內容</string>
+    <string name="add_game_comments_form_origin_comments_subject">原評價</string>
+    <string name="add_game_comments_form_reply_subject">回復</string>
+
+    <string name="feedback_player">&#xf11b; 玩家</string>
+    <string name="feedback_author">&#xf5fc; 獨立作者</string>
+    <string name="add_app_feedback_form_attitude_hint">請選擇您的身份</string>
+
+    <string name="shortcut_setting">三維觸控設置</string>
+    <string name="shortcut_setting_error">三維觸控設置無法打開</string>
+    <string name="please_login_first">請先登錄之後再使用各項功能</string>
+    <string name="shortcut_add">添加</string>
+    <string name="shortcut_remove">移除</string>
+    <string name="shortcut_added">三維觸控快捷進入，已添加</string>
+    <string name="shortcut_idle">未添加</string>
+    <string name="shortcut_intro">三維觸控（3DTouch），桌面上長按“%s”圖示，出現功能表列；點擊對應的功能表，在登錄狀態下即可快速進入此功能\n可以從“設置->三維觸控設置”頁面進入進行定制\n可以從3DTouch->“三維觸控設置”快速進行定制</string>
+    <string name="shortcut_note"><Data><![CDATA[<font color="#ff0000">*</font><font color="#999999">Android 7.0及以上版本支援此功能；但是某些廠商系統或者某些機型的桌面禁用此功能，您需要查看您的系統設置是否支援此功能</font>]]></Data></string>
+    <string name="shortcut_unsupport">您當前的手機安卓系統版本過低，無法使用此功能</string>
+    <string name="shortcut_reache_upper_limit">數量達到上限</string>
+    <string name="pin_to_desktop_need_url">該遊戲不滿足創建桌面圖示的條件</string>
+    <string name="pin_to_desktop_fail">設備不支援在桌面創建快捷圖示</string>
+    <string name="pin_to_desktop_wait_moment">創建桌面圖示的請求已發送，如未創建請檢查許可權設置</string>
+
+    <string name="are_you_realy_want_quit">再按一次退出程式</string>
+    <string name="can_not_start_app">沒有找到該App的安裝資訊</string>
+    <string name="can_not_install_app">沒有找到安裝檔</string>
+    <string name="can_not_open_file">沒有找到打開該檔對應的程式</string>
+    <string name="unknown_file">系統無法識別該檔</string>
+
+    <string name="error_filenotfound">沒有找到檔</string>
+    <string name="error_emptyfolder">資料夾為空</string>
+
+    <string name="node_setting">節點設置</string>
+    <string name="node_local">本地</string>
+    <string name="node_sanfrancisco">三藩市 (唯讀)</string>
+    <string name="node_shanghai">上海</string>
+    <string name="node_taibei">臺北</string>
+    <string name="node_tokyo">東京</string>
+    <string name="node_losangeles">洛杉磯</string>
+    <string name="node_switch_success_restart_app">節點切換成功，App將在稍後自動重啟</string>
+    <string name="node_switch_success_restart_app_now">立即重啟</string>
+
+    <string name="cover_id">ID:%1$s</string>
+
+    <string name="screen_orientation_portrait">豎屏</string>
+    <string name="screen_orientation_landscape">橫屏</string>
+
+    <string name="play_launcher_strict">嚴格模式</string>
+    <string name="play_launcher_tolerant_pure_black">容錯 (純黑)</string>
+    <string name="play_launcher_tolerant_gradient_cyan">容錯 (青色漸變)</string>
+
+    <string name="download_is_empty">下載連結為空，無法下載</string>
+    <string name="invalid_rmmv_game">不是有效的 RPG Maker MV 製作的遊戲</string>
+    <string name="unzip_failed">解壓縮失敗</string>
+    <string name="file_from_fileprovider_is_empty">獲取檔失敗，請檢查許可權，如果此app已獲得對應許可權，或許需要檢查您手機的檔案管理員相應的許可權或者存在其它問題</string>
+    <string name="failto_getfile_from_web">獲取檔失敗，請檢查網路後重試</string>
+
+    <!-- 消息頁面複製 -->
+    <string name="call_mode">聽筒模式</string>
+    <string name="speaker_mode">揚聲器模式</string>
+    <string name="copy">複製</string>
+    <string name="resend">重發</string>
+    <string name="send_message">發表</string>
+    <string name="title_activity_pick_photo">PickPhotoActivity</string>
+    <string name="send">發送</string>
+    <string name="preview">預覽</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">確定</string>
+    <string name="exit">退出</string>
+    <string name="thumb_remove">清理圖片緩存</string>
+    <string name="check_update">檢查更新</string>
+    <string name="gamefile_remove">清理遊戲檔</string>
+    <string name="gamefile_removing">正在清理遊戲檔&#8230;</string>
+    <string name="gamefile_reset_index">正在重置遊戲索引&#8230;</string>
+    <string name="gamefile_verifing">正在校驗遊戲檔&#8230;</string>
+    <string name="cloud_game_list">雲遊戲</string>
+    <string name="webview_outlink">外鏈，請注意安全</string>
+    <string name="my_game_watch">我關注的遊戲</string>
+    <string name="my_game_add">我推薦的遊戲</string>
+    <string name="my_game_local">我的本地遊戲</string>
+    <string name="my_game_local_add">載入本地遊戲</string>
+    <string name="title_game_add">推薦好遊戲</string>
+    <string name="my_game_down">我下載的遊戲</string>
+    <string name="my_game_play">我玩過的遊戲</string>
+    <string name="download_center">上傳下載中心</string>
+    <string name="notify_setting">設置</string>
+    <string name="feedback_setting">意見回饋</string>
+    <string name="message_from_developer">開發者的話</string>
+    <string name="feedback_message_from_developer">嗨，大家好，我是咱們這款app的開發者。我既是一名玩家也是一名獨立遊戲作者，我希望能把這款app打造成為咱們玩家和獨立遊戲作者自己的平臺。然而我一個人的力量總是有限，所以在這裡誠摯的邀請各位玩家和獨立作者能夠大膽的提出您的看法、想法、建議、意見、回饋等（您的回饋和我的回復只有咱倆能看到）。在此，小的給各位大佬大神們先行謝過啦！</string>
+    <string name="thumb_remove_finish">清理完成</string>
+    <string name="title_activity_preview">PreviewActivity</string>
+    <string name="request_login_faild">請求登錄消息伺服器失敗</string>
+    <string name="sdcard_unavaluable">請檢查存儲卡是否可用</string>
+    <string name="image_path_unavaluable">圖片路徑無效</string>
+    <string name="disconnected">連接已斷開</string>
+    <string name="requesting">正在獲取資訊...</string>
+    <string name="connecting">正在連接...</string>
+    <string name="chat">發信息</string>
+
+    <string name="top_left_back">返回</string>
+    <string name="group_name_tip">群聊名稱</string>
+    <string name="chat_failed_search">未搜索到匹配的結果</string>
+    <string name="save">保存</string>
+    <string name="chat_detail">聊天詳情</string>
+    <string name="choose_contact">選擇連絡人</string>
+    <string name="switch_login_server">切換登錄伺服器</string>
+    <string name="switch_login_server_title">輸入登錄伺服器位址</string>
+
+    <string name="desc_avatar">頭像</string>
+    <string name="contact_name">最近連絡人</string>
+    <string name="menu_undo">後退</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_users">用戶</string>
+    <string name="chat_title">聊騷</string>
+    <string name="indexgamelist_title">尋找好遊戲</string>
+    <string name="loading_contacts">載入中...</string>
+    <string name="request_unread_msg_faild">請求未讀消息失敗</string>
+    <string name="load_contacts_failed">數據請求失敗,請重試</string>
+    <string name="get_unread_msg_count_failed">獲取未讀消息計數失敗</string>
+    <string name="get_user_info_failed">獲取使用者資訊失敗</string>
+    <string name="get_recent_contact_failed">當前連絡人載入失敗</string>
+    <string name="network_was_disconnected">連接已經斷開</string>
+    <string name="no_recent_contact">最近還沒有人聯繫過你哦</string>
+
+    <string name="message_image_desc">Message Image</string>
+    <string name="tip_for_voice_forward">按住 說話</string>
+    <string name="release_to_send_voice">鬆開 結束</string>
+    <string name="photo_pop_pick_photo">從相冊選擇</string>
+    <string name="photo_pop_take_photo">拍照</string>
+    <string name="no_gallery">沒有找到相冊</string>
+    <string name="no_sdcard">沒有SD卡</string>
+    <string name="no_available_dir">沒用找到存儲目錄</string>
+    <string name="disconnected_by_server">"伺服器已斷開連接！"</string>
+    <string name="link_is_connecting">正在建立連接,請稍後...</string>
+    <string name="message_null">不能發送空內容哦！</string>
+    <string name="take_photo_description">take photo</string>
+    <string name="pick_photo_description">pick photo</string>
+    <string name="network_has_disconnected">網路已經斷開</string>
+    <string name="message_send_failed">請檢查網路</string>
+    <string name="network_has_connected">網路已正常</string>
+    <string name="image_download_failed">下載檔案失敗</string>
+    <string name="send_good_url_btn_text">發送連結</string>
+    <string name="loadding_target_info">正在獲取對方資訊...</string>
+    <string name="audio_recorded_so_short">錄音時間太短，請重新錄製</string>
+    <string name="take_photo_btn_text">照片</string>
+    <string name="transfer_file_btn_text">文件</string>
+    <string name="take_camera_btn_text">拍照</string>
+    <string name="kick_tip">您已經被踢下線</string>
+    <string name="goods_detail_title">我正在看:</string>
+    <string name="goods_now_price_prefix">￥</string>
+    <string name="goods_old_price_prefix">￥</string>
+    <string name="history_divider_text">以上是歷史資訊</string>
+    <string name="send_link">發送連結</string>
+    <string name="write_audio_file_failed">錄音檔寫入失敗</string>
+    <string name="need_choose_images">請選擇圖片～</string>
+    <string name="image_cannot_found">圖片路徑不存在，請選擇其它圖片！</string>
+    <string name="not_found_album">沒有找到可用的相冊！</string>
+    <string name="loading">載入中&#8230;</string>
+    <string name="refresh_over">刷新完成</string>
+    <string name="refresh">刷新</string>
+    <string name="notfound_audio_file">該語音檔已丟失</string>
+    <string name="audio_in_speeker">已經為您切換到揚聲器模式</string>
+    <string name="audio_in_call">已經為您切換到聽筒模式</string>
+    <string name="unavailable_image_file">該文件已損壞</string>
+    <string name="block_chat">不能對話</string>
+    <string name="unavailable_server">伺服器開小差，請稍後重試～</string>
+    <string name="i_know">我知道了</string>
+    <string name="kick_off">該帳號在其他設備登陸，您已被迫下線!</string>
+    <string name="reconnect">重連</string>
+    <string name="request_custom_service_failed">請求客服失敗</string>
+    <string name="invalid_detail_url">無效的詳情連結,不能跳轉哦～</string>
+    <string name="invalid_order_url">無效的訂單連結,不能跳轉哦～</string>
+    <string name="no_group_member">你可能已經不在該群中了!</string>
+    <string name="default_emo">默認表情</string>
+    <string name="yaya_emo">牙牙表情</string>
+    <string name="call">呼叫</string>
+    <string name="save_image">保存圖片到手機</string>
+    <string name="im_service_disconnected">無法連接到後臺服務</string>
+
+    <string name="main_chat">聊天</string>
+    <string name="main_contact">通訊錄</string>
+    <string name="main_innernet">發現</string>
+    <string name="main_home">首頁</string>
+    <string name="main_lookfor">尋找</string>
+    <string name="main_top10">排行</string>
+    <string name="main_me_tab">我的</string>
+    <string name="page_lookfor">尋找好遊戲</string>
+    <string name="page_me">我</string>
+    <string name="page_setting">設置</string>
+    <string name="page_user_detail">詳細資料</string>
+
+    <string name="pull_to_refresh_pull_label">下拉刷新~</string>
+    <string name="pull_to_refresh_release_label">釋放立即刷新~</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新...</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉載入更多~</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_last_refresh">上次更新：</string>
+</resources>

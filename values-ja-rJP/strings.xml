@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">雷神游戏厅</string>
-    <string name="intro_text_1">RPG Maker MV 游戏\n免打包即可在手机运行</string>
-    <string name="intro_text_2">自主研发全新第二代云游戏技术\n免下载，免安装，开箱即玩\n这一次，让我们引领全球科技前沿</string>
-    <string name="intro_text_3">5G时代，游戏大不同\n云游戏，让好玩触手可及</string>
-    <string name="intro_text_4">我的时间非常宝贵\n不能用在垃圾游戏和\n筛选垃圾游戏上</string>
-    <string name="intro_text_cloudgame">5G时代，游戏大不同\n全新第二代云游戏技术\n免下载，免安装，开箱即玩</string>
+    <string name="app_name">雷神ゲームホール</string>
+    <string name="intro_text_1">RPG Maker MV 遊戯\n荷造りなしで電話で作動する</string>
+    <string name="intro_text_2">新しい第2世代のクラウドゲーム技術の独立した研究開発\nダウンロードなし、インストールなし、箱から出して再生\n今回は、世界の科学技術の最前線をリードしましょう。</string>
+    <string name="intro_text_3">5G時代、ゲームは大きく異なる\nあなたの指先で楽しいを作るクラウドゲーム</string>
+    <string name="intro_text_4">私の時間は貴重です\nジャンクゲームで使用することはできませんし\nジャンクゲームをフィルタリング</string>
+    <string name="intro_text_cloudgame">5G時代、ゲームは大きく異なる\n新しい第2世代のクラウドゲーム技術\nダウンロードなし、インストールなし、箱から出して再生</string>
     <!-- Launcher -->
-    <string name="launcher_text_1">\n雷神游戏厅\n5G时代，游戏大不同\n云游戏，让好玩触手可及</string>
-    <string name="launcher_text_2">\n雷神游戏厅\n免打包apk即可在手机\n运行 RPG Maker MV 游戏</string>
-    <string name="launcher_text_3">\n雷神游戏厅\n自主研发全新第二代云游戏技术\n免下载，免安装，开箱即玩\n这一次，让我们引领全球科技前沿</string>
-    <string name="launcher_text_4">\n我的时间非常宝贵\n不能用在垃圾游戏和\n筛选垃圾游戏上</string>
-    <string name="launcher_button">开始</string>
+    <string name="launcher_text_1">\n雷神ゲームホール\n5G時代、ゲームは大きく異なる\nあなたの指先で楽しいを作るクラウドゲーム</string>
+    <string name="launcher_text_2">\n雷神ゲームホール\n無料パッケージAPKは、携帯電話で準備\n运行 RPG Maker MV 遊戯</string>
+    <string name="launcher_text_3">\n雷神ゲームホール\n新しい第2世代のクラウドゲーム技術の独立した研究開発\nダウンロードなし、インストールなし、箱から出して再生\n今回は、世界の科学技術の最前線をリードしましょう。</string>
+    <string name="launcher_text_4">\n私の時間は貴重です\nジャンクゲームで使用することはできませんし\nジャンクゲームをフィルタリング</string>
+    <string name="launcher_button">はじまる</string>
 
-    <string name="login">登录</string>
-    <string name="reg">注册</string>
-    <string name="submit">提交</string>
-    <string name="about">关于</string>
+    <string name="login">サインインする</string>
+    <string name="reg">サインアップする</string>
+    <string name="submit">しつくする</string>
+    <string name="about">について</string>
     <string name="whatsnew">What\'s New?</string>
     <string name="version">%1$s v%2$s.%3$s Build time: %4$s</string>
-    <string name="qq_group">官方交流QQ群：316081271</string>
+    <string name="qq_group">公式ACQQグループ：316081271</string>
     <string name="version_symbol">\ v</string><!--前面的空格可以用转义字符，这俩最终没有使用，留作模板-->
     <string name="released_on">, Released on&#160;</string><!--后面的空格可以用&#160;字符串代替，这俩最终没有使用，留作模板-->
 
     <!-- Main -->
-    <string name="contacts">通讯录</string>
-    <string name="my">我的</string>
-    <string name="discover">发现</string>
-    <string name="recommended_friends">新的朋友</string>
-    <string name="group_chats">群聊</string>
-    <string name="official_accounts">公众号</string>
-    <string name="no_msg">暂时没有新消息</string>
-    <string name="search">搜索</string>
+    <string name="contacts">アドレス帳</string>
+    <string name="my">私の</string>
+    <string name="discover">発見</string>
+    <string name="recommended_friends">新しい友達</string>
+    <string name="group_chats">グループチャット</string>
+    <string name="official_accounts">公開番号</string>
+    <string name="no_msg">現時点では新しいメッセージはありません</string>
+    <string name="search">検索対象</string>
 
 
     <string name="action_settings">Settings</string>

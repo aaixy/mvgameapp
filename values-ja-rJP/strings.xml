@@ -225,106 +225,106 @@
     <string name="upload_screenshot">スクリーンショットをアップロードする</string>
 
     <!-- profile -->
-    <string name="title_activity_edit_password">修改密码</string>
-    <string name="title_activity_edit_nickname">修改昵称</string>
-    <string name="profile_txt_nickname">昵称</string>
-    <string name="profile_txt_nickname_is_anonymous">匿名 (昵称为空)</string>
-    <string name="profile_action_edit_nickname">编辑</string>
-    <string name="action_edit_short">编辑</string>
-    <string name="error_invalid_nickname">昵称不能为空</string>
-    <string name="edit_result_fail_nickname">昵称修改失败</string>
-    <string name="edit_result_fail_password">密码修改失败</string>
+    <string name="title_activity_edit_password">パスワードの変更</string>
+    <string name="title_activity_edit_nickname">ニックネームの変更</string>
+    <string name="profile_txt_nickname">ニックネーム</string>
+    <string name="profile_txt_nickname_is_anonymous">匿名 (ニックネームが空)</string>
+    <string name="profile_action_edit_nickname">編集</string>
+    <string name="action_edit_short">編集</string>
+    <string name="error_invalid_nickname">ニックネームを空にすることはできません</string>
+    <string name="edit_result_fail_nickname">ニックネームの変更に失敗しました</string>
+    <string name="edit_result_fail_password">パスワードの変更に失敗しました</string>
     <string name="edit_result_succ">更新成功</string>
-    <string name="update_box_title">版本更新 v%1$s</string>
-    <string name="update_box_size">大小：%1$s</string>
-    <string name="proccess_box_title">处理中，请稍等 %1$s</string>
-    <string name="proccess_unarchive_title">正在安装</string>
-    <string name="update_box_btn_ok">立即升级</string>
-    <string name="update_box_btn_later">下次再说</string>
-    <string name="download_start">开始在后台下载，稍后将通知您安装</string>
-    <string name="notify_download_ticker">正在下载新版本</string>
-    <string name="notify_download_content">正在下载,请稍后&#8230;</string>
-    <string name="notify_download_finish">下载完成, 请点击安装</string>
-    <string name="notify_update_game_finish">更新完成</string>
-    <string name="download_error_filenotfound">文件不存在</string>
-    <string name="download_error_ioexception">下载失败，请检查网络！</string>
-    <string name="download_error_malformedurl">URL格式错误</string>
-    <string name="edit_result_fail">更新失败</string>
-    <string name="edit_result_fail_n">更新失败</string>
-    <string name="edit_result_fail_timeout">超时</string>
-    <string name="profile_txt_pwd">密码</string>
-    <string name="profile_action_edit_pwd">编辑</string>
+    <string name="update_box_title">バージョンの更新 v%1$s</string>
+    <string name="update_box_size">サイズ:%1$s</string>
+    <string name="proccess_box_title">処理中は、少々お待ちください。 %1$s</string>
+    <string name="proccess_unarchive_title">インストール中</string>
+    <string name="update_box_btn_ok">今すぐアップグレード</string>
+    <string name="update_box_btn_later">次回は話す</string>
+    <string name="download_start">バックグラウンドでダウンロードを開始し、インストールが後で通知されます。</string>
+    <string name="notify_download_ticker">新しいバージョンをダウンロードしています</string>
+    <string name="notify_download_content">ダウンロード中、後でダウンロードしてください&#8230;</string>
+    <string name="notify_download_finish">ダウンロードが完了したら、[インストール] をクリックします。</string>
+    <string name="notify_update_game_finish">更新完了</string>
+    <string name="download_error_filenotfound">ファイルが存在しません</string>
+    <string name="download_error_ioexception">ダウンロードに失敗しました, ネットワークをチェックしてください!</string>
+    <string name="download_error_malformedurl"> URL 形式が正しくありません</string>
+    <string name="edit_result_fail">更新に失敗しました</string>
+    <string name="edit_result_fail_n">更新に失敗しました</string>
+    <string name="edit_result_fail_timeout">タイムアウト</string>
+    <string name="profile_txt_pwd">パスワード</string>
+    <string name="profile_action_edit_pwd">編集</string>
     <string name="profile_txt_pwd_pad">****************</string>
-    <string name="profile_txt_album">相册</string>
-    <string name="profile_txt_collect">收藏</string>
-    <string name="profile_txt_money">钱包</string>
-    <string name="profile_txt_card">卡包</string>
+    <string name="profile_txt_album">アルバム</string>
+    <string name="profile_txt_collect">お気に入り</string>
+    <string name="profile_txt_money">財布</string>
+    <string name="profile_txt_card">カードパック</string>
     <string name="profile_txt_smail">表情</string>
-    <string name="profile_txt_setting">设置</string>
+    <string name="profile_txt_setting">設定</string>
     <string name="profile_txt_username">Allen Juns</string>
-    <string name="profile_txt_userid">微信号：dada2012625</string>
-    <string name="profile_txt_mycode">我的二维码</string>
+    <string name="profile_txt_userid">マイクロ信号:dada2012625</string>
+    <string name="profile_txt_mycode">私のQRコード</string>
 
     <!-- Dicover -->
-    <string name="discover_txt_pengyouquan">朋友圈</string>
-    <string name="discover_txt_saoyisao">扫一扫</string>
-    <string name="discover_txt_yaoyiyao">摇一摇</string>
-    <string name="discover_txt_nearby">附近的人</string>
-    <string name="discover_txt_piaoliuping">漂流瓶</string>
-    <string name="discover_txt_shop">购物</string>
-    <string name="discover_txt_game">游戏</string>
+    <string name="discover_txt_pengyouquan">友人の円</string>
+    <string name="discover_txt_saoyisao">スイープ</string>
+    <string name="discover_txt_yaoyiyao">振る</string>
+    <string name="discover_txt_nearby">近くの人</string>
+    <string name="discover_txt_piaoliuping">ラフティングボトル</string>
+    <string name="discover_txt_shop">ショッピング</string>
+    <string name="discover_txt_game">遊戯</string>
 
     <!-- default -->
-    <string name="def_empty_data_text">空空如也，神马都没有</string>
-    <string name="def_empty_button_retry">重试</string>
-    <string name="def_net_error_text">网络不给力</string>
-    <string name="def_data_loading">加载中&#8230;</string>
-    <string name="def_more">上拉加载更多&#8230;</string>
-    <string name="key_back_msg">再次按返回键退出</string>
+    <string name="def_empty_data_text">空っぽだ 何もない</string>
+    <string name="def_empty_button_retry">再試行</string>
+    <string name="def_net_error_text">ネットワークは力を与えない</string>
+    <string name="def_data_loading">読み込み中&#8230;</string>
+    <string name="def_more">プルアップ ロード&#8230;</string>
+    <string name="key_back_msg">戻りキーをもう一度押して終了します。</string>
 
     <!-- 钱包 -->
-    <string name="wallet_txt_lingqian">零钱</string>
-    <string name="wallet_txt_yinhangka">银行卡</string>
-    <string name="wallet_txt_cards">3张</string>
+    <string name="wallet_txt_lingqian">おつり</string>
+    <string name="wallet_txt_yinhangka">銀行カード</string>
+    <string name="wallet_txt_cards">3枚</string>
 
     <!-- 设置 -->
-    <string name="setting_txt_usersafe">账号安全</string>
-    <string name="setting_txt_msgtip">新消息通知</string>
-    <string name="setting_txt_yinsi">隐私</string>
-    <string name="setting_txt_tongyong">通用</string>
-    <string name="setting_txt_about">关于微信</string>
-    <string name="setting_btn_exit">退出登录</string>
+    <string name="setting_txt_usersafe">アカウントのセキュリティ</string>
+    <string name="setting_txt_msgtip">新しいメッセージ通知</string>
+    <string name="setting_txt_yinsi">プライバシー</string>
+    <string name="setting_txt_tongyong">ユニバーサル</string>
+    <string name="setting_txt_about"> WeChatについて</string>
+    <string name="setting_btn_exit">ログインを終了する</string>
 
     <!-- Unit -->
     <string name="unit_second">秒</string>
 
     <!-- Dialog -->
     <!-- Dialog request_permission -->
-    <string name="dialog_request_permission_title">需要您的授权</string>
+    <string name="dialog_request_permission_title">承認が必要</string>
     <string name="dialog_request_permission_btn_agree">同意</string>
-    <string name="dialog_request_permission_btn_refuse">拒绝</string>
-    <string name="dialog_request_permission_content_sms"><Data><![CDATA[需要<font color="#ff0000"><b>读取短信</b></font>权限用来读取验证码以自动输入；<br>需要<font color="#ff0000"><b>写入/删除短信</b></font>权限用来将验证码短信删除以减少用户操作；]]></Data></string>
-    <string name="dialog_request_permission_content_sms_refused">未取得用户授权</string>
+    <string name="dialog_request_permission_btn_refuse">断る</string>
+    <string name="dialog_request_permission_content_sms"><Data><![CDATA[必要<font color="#ff0000"><b>テキスト メッセージを読む</b></font>アクセス許可は、自動入力用の確認コードの読み取りに使用されます。<br>必要<font color="#ff0000"><b>テキスト メッセージの書き込み/削除</b></font>アクセス許可は、ユーザーの操作を減らすために、確認コードの SMS を削除するために使用されます；]]></Data></string>
+    <string name="dialog_request_permission_content_sms_refused">ユーザーの承認を取得していません</string>
     <!-- Dialog reg2 account -->
-    <string name="dialog_reg2_account_title">账号信息</string>
-    <string name="dialog_reg2_account_btn_agree">已记在脑中</string>
-    <string name="dialog_reg2_account_btn_refuse">已记在纸上</string>
-    <string name="dialog_reg2_account_msg"><Data><![CDATA[系统给您分配的账号：<font color="#008000"><b>%1$s</b></font>，<br>请记在大脑中或抄在纸上并将该纸锁在保险柜中或妥善保存，<font color="#800000">强烈推荐记在大脑中</font>，因为目前还没有能够直接读取您大脑中数据的科技出现，但不排除将来会有此类科技出现。<br>点击下方<font color="#800000">两个按钮均会跳转至登录页面</font>。]]></Data></string>
+    <string name="dialog_reg2_account_title">アカウント情報</string>
+    <string name="dialog_reg2_account_btn_agree">頭に忘れ去ら</string>
+    <string name="dialog_reg2_account_btn_refuse">紙に書かれた</string>
+    <string name="dialog_reg2_account_msg"><Data><![CDATA[割り当てられたアカウント：<font color="#008000"><b>%1$s</b></font>，<br>脳にメモを取るか、紙にコピーし、金庫にロックするか、適切に保管してください。<font color="#800000">脳に覚えておくのが強くお勧めします。</font>，脳内のデータを直接読み取ることができる技術はまだ存在しませんが、今後このような技術が出現する可能性は排除されません。<br>下をクリックしてください<font color="#800000">両方のボタンがログイン ページにジャンプします</font>。]]></Data></string>
     <!-- Dialog change password result -->
-    <string name="dialog_change_pwd_title">账号信息</string>
-    <string name="dialog_change_pwd_btn_agree">确定</string>
-    <string name="dialog_change_pwd_msg">请使用新密码重新登录</string>
+    <string name="dialog_change_pwd_title">アカウント情報</string>
+    <string name="dialog_change_pwd_btn_agree">きりく</string>
+    <string name="dialog_change_pwd_msg">新しいパスワードで再度ログインしてください</string>
     <!-- Dialog change nickname result -->
-    <string name="dialog_change_nickname_title">账号信息</string>
-    <string name="dialog_change_nickname_btn_agree">确定</string>
-    <string name="dialog_change_nickname_msg"><Data><![CDATA[昵称已修改为：<font color="#00ff00"><b>%1$s</b></font>，<br>稍后生效。]]></Data></string>
+    <string name="dialog_change_nickname_title">アカウント情報</string>
+    <string name="dialog_change_nickname_btn_agree">きりく</string>
+    <string name="dialog_change_nickname_msg"><Data><![CDATA[ニックネームは次のように変更されました：<font color="#00ff00"><b>%1$s</b></font>，<br>後で有効になります。]]></Data></string>
     <!-- Contact Top Button -->
     <string name="contact_all">全部</string>
-    <string name="contact_buddy">朋友</string>
-    <string name="contact_group">群聊</string>
-    <string name="contact_department">组织</string>
+    <string name="contact_buddy">友</string>
+    <string name="contact_group">グループチャット</string>
+    <string name="contact_department">組織</string>
     <!-- Serach -->
-    <string name="search_hint">搜索联系人，群组，会话</string>
+    <string name="search_hint">連絡先、グループ、セッションの検索</string>
 
 
     <!-- Strings related to Settings -->
